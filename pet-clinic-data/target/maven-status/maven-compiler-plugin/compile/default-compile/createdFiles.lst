@@ -1,0 +1,17 @@
+com\petClinic\javorek\petclinic\model\BaseEntity.class
+com\petClinic\javorek\petclinic\services\OwnerService.class
+com\petClinic\javorek\petclinic\model\PetType.class
+com\petClinic\javorek\petclinic\services\map\PetServiceMap.class
+com\petClinic\javorek\petclinic\services\PetService.class
+com\petClinic\javorek\petclinic\model\Visit.class
+com\petClinic\javorek\petclinic\services\CrudService.class
+com\petClinic\javorek\petclinic\model\Speciality.class
+com\petClinic\javorek\petclinic\services\map\OwnerServiceMap.class
+com\petClinic\javorek\petclinic\services\PetTypeService.class
+com\petClinic\javorek\petclinic\services\map\AbstractMapService.class
+com\petClinic\javorek\petclinic\services\VetService.class
+com\petClinic\javorek\petclinic\model\Person.class
+com\petClinic\javorek\petclinic\model\Vet.class
+com\petClinic\javorek\petclinic\model\Owner.class
+com\petClinic\javorek\petclinic\model\Pet.class
+com\petClinic\javorek\petclinic\services\map\VetServiceMap.class

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pet-clinic-web" />
+        <module name="pet-clinic-data" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pet-clinic-data" target="11" />
+      <module name="pet-clinic-web" target="11" />
+      <module name="sb_pet_clinic" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
