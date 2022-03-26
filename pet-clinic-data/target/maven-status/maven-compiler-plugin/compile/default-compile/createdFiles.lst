@@ -7,6 +7,7 @@ com\petClinic\javorek\petclinic\model\Visit.class
 com\petClinic\javorek\petclinic\services\CrudService.class
 com\petClinic\javorek\petclinic\model\Speciality.class
 com\petClinic\javorek\petclinic\services\map\OwnerServiceMap.class
+com\petClinic\javorek\petclinic\model\Owner$OwnerBuilder.class
 com\petClinic\javorek\petclinic\services\PetTypeService.class
 com\petClinic\javorek\petclinic\services\map\AbstractMapService.class
 com\petClinic\javorek\petclinic\services\VetService.class

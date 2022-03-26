@@ -1,16 +1,31 @@
 package com.petClinic.javorek.petclinic.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
 import java.util.Set;
 
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
+@Builder
 public class Vet extends  Person{
 
+    @Id
+    @GeneratedValue
+    private Long Id;
+
+    @Transient
     private Set<Speciality> specialities;
 
-    public Set<Speciality> getSpecialities() {
-        return specialities;
-    }
+    @Column(name = "first_name")
+    private String firstName;
 
-    public void setSpecialities(Set<Speciality> specialities) {
-        this.specialities = specialities;
-    }
+    @Column(name = "last_name")
+    private String lastName;
+
 }

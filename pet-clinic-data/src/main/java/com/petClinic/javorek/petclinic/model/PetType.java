@@ -1,25 +1,26 @@
 package com.petClinic.javorek.petclinic.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
 public class PetType extends BaseEntity {
 
-    private String name;
+    @Id
     private Long Id;
 
-    @Override
-    public Long getId() {
-        return Id;
-    }
+    @Column
+    private String name;
 
-    @Override
-    public void setId(Long id) {
-        Id = id;
-    }
+    @Column
+    private Long petTypeId;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 }

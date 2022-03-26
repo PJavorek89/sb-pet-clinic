@@ -3,10 +3,13 @@ package com.petClinic.javorek.petclinic.services.map;
 import com.petClinic.javorek.petclinic.model.Owner;
 import com.petClinic.javorek.petclinic.model.Vet;
 import com.petClinic.javorek.petclinic.services.CrudService;
+import com.petClinic.javorek.petclinic.services.VetService;
+import org.springframework.stereotype.Component;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+@Component
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();

@@ -1,23 +1,20 @@
 package com.petClinic.javorek.petclinic.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Person extends BaseEntity{
 
     private String firstName;
+
     private String secondName;
 
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getSecondName() {
-        return secondName;
-    }
-
-    public void setSecondName(String secondName) {
-        this.secondName = secondName;
-    }
 }
